@@ -1,4 +1,4 @@
-1. Introdução - em atualização
+# 1. Introdução - em atualização
 
 HTML (HyperText Markup Language) é a linguagem padrão usada para criar páginas e aplicações na web. Ela estrutura o conteúdo, definindo títulos, parágrafos, links, imagens e outros elementos que o navegador interpreta e exibe.
 
@@ -9,7 +9,7 @@ Características principais:
     - Focada na estrutura e semântica do conteúdo.
     - Evolui continuamente com novos padrões e recursos.
 
-2. História
+# 2. História
 
     - 1991: Tim Berners-Lee cria a primeira versão do HTML no CERN, focada em documentos científicos.
     - 1995: Surgem HTML 2.0 e depois HTML 3.2, trazendo suporte a formulários e tabelas.
@@ -19,7 +19,7 @@ Características principais:
 
 Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebendo atualizações contínuas para novas funcionalidades.
 
-3. Estrutura Básica e Metadados
+# 3. Estrutura Básica e Metadados
 
     - &lt;!DOCTYPE&gt; - Declara o tipo do documento HTML (HTML5).
     - &lt;html&gt; - Elemento raiz do documento HTML.
@@ -32,7 +32,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - &lt;script - Insere ou referencia código JavaScript.
     - &lt;noscript&gt; - Conteúdo alternativo quando JavaScript está desabilitado.
 
-4. Estrutura de Conteúdo Semântico
+# 4. Estrutura de Conteúdo Semântico
 
     - &lt;body&gt; - Corpo da página, conteúdo visível.
     - &lt;header&gt; - Cabeçalho de página ou seção.
@@ -49,7 +49,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - &lt;p&gt; - Parágrafo de texto.
     - &lt;pre&gt; - Texto pré-formatado (mantém espaçamento e quebras).
 
-5. Formatação e Texto
+# 5. Formatação e Texto
 
     - &lt;abbr&gt; - Abreviação com explicação (via atributo title).
     - &lt;b&gt; - Negrito (sem ênfase semântica).
@@ -79,7 +79,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - &lt;var&gt; - Representa variável.
     - &lt;wbr&gt; - Ponto opcional de quebra de linha.
 
-6. Listas
+# 6. Listas
 
     - &lt;ul&gt; - Lista não ordenada.
     - &lt;ol&gt; - Lista ordenada.
@@ -88,7 +88,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - &lt;dt&gt; - Termo da definição.
     - &lt;dd&gt; - Descrição do termo.
 
-7. Tabelas
+# 7. Tabelas
 
     - &lt;table&gt; - Define tabela.
     - &lt;caption&gt; - Legenda da tabela.
@@ -101,7 +101,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - &lt;td&gt; - Célula de dados.
     - &lt;th&gt; - Célula de cabeçalho.
 
-8. Mídia e Multimídia
+# 8. Mídia e Multimídia
 
     - &lt;img&gt; - Imagem.
     - &lt;map&gt; - Mapa de imagem com áreas clicáveis.
@@ -118,7 +118,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - &lt;param&gt; - Parâmetro para &lt;object&gt;.
     - &lt;iframe&gt; - Janela embutida que exibe outro conteúdo HTML.
 
-9. Formulários e Interação com Usuário
+# 9. Formulários e Interação com Usuário
 
     - &lt;form&gt; - Formulário para envio de dados.
     - &lt;input&gt; - Campo de entrada (texto, checkbox, rádio etc.).
@@ -135,7 +135,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - &lt;meter&gt; - Medidor de valor dentro de faixa.
     - &lt;progress&gt; - Barra de progresso.
 
-10. Tag / Motivo da Obsolescência / Substituição Recomendada - Observação
+# 10. Tag / Motivo da Obsolescência / Substituição Recomendada - Observação
 
     - &lt;acronym&gt; - Foi substituída por &lt;abbr&gt;. - Use &lt;abbr&gt; para abreviações.
     - &lt;applet&gt; - Plugins Java obsoletos, inseguro e descontinuado. - Use &lt;object&gt; ou tecnologias modernas (JS, HTML5).
