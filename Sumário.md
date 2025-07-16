@@ -4,18 +4,18 @@ HTML (HyperText Markup Language) é a linguagem padrão usada para criar página
 
 Características principais:
 
-Linguagem de marcação, não de programação.
-Base da web, suportada por todos os navegadores.
-Focada na estrutura e semântica do conteúdo.
-Evolui continuamente com novos padrões e recursos.
+    - Linguagem de marcação, não de programação.
+    - Base da web, suportada por todos os navegadores.
+    - Focada na estrutura e semântica do conteúdo.
+    - Evolui continuamente com novos padrões e recursos.
 
 2. História
 
-1991: Tim Berners-Lee cria a primeira versão do HTML no CERN, focada em documentos científicos.
-1995: Surgem HTML 2.0 e depois HTML 3.2, trazendo suporte a formulários e tabelas.
-1997: HTML 4.0 introduz elementos para acessibilidade, estilos e scripts.
-2000: Surgimento do XHTML 1.0, versão mais rigorosa e baseada em XML.
-2014: W3C lança oficialmente o HTML5, com foco em multimídia, semântica, APIs avançadas e responsividade.
+    - 1991: Tim Berners-Lee cria a primeira versão do HTML no CERN, focada em documentos científicos.
+    - 1995: Surgem HTML 2.0 e depois HTML 3.2, trazendo suporte a formulários e tabelas.
+    - 1997: HTML 4.0 introduz elementos para acessibilidade, estilos e scripts.
+    - 2000: Surgimento do XHTML 1.0, versão mais rigorosa e baseada em XML.
+    - 2014: W3C lança oficialmente o HTML5, com foco em multimídia, semântica, APIs avançadas e responsividade.
 
 Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebendo atualizações contínuas para novas funcionalidades.
 
