@@ -19,23 +19,23 @@ Evolui continuamente com novos padrões e recursos.
 
 Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebendo atualizações contínuas para novas funcionalidades.
 
-# Estrutura Básica e Metadados
+# Estrutura Básica e Metadados <>
 
-<!DOCTYPE>-Declara o tipo do documento HTML (HTML5).
-<html> - Elemento raiz do documento HTML.
-<head> - Contém metadados da página (título, links, scripts etc.).
-<title> - Define o título da página mostrado na aba do navegador.
-<base> - Define URL base para links relativos.
-<link> - Relaciona documento a recurso externo (CSS, favicon etc.).
-<meta> - Define metadados (charset, viewport, descrição etc.).
-<style> - Adiciona CSS embutido.
-<script> - Insere ou referencia código JavaScript.
-<noscript> - Conteúdo alternativo quando JavaScript está desabilitado.
+&gt!DOCTYPE&gt-Declara o tipo do documento HTML (HTML5).
+html - Elemento raiz do documento HTML.
+head - Contém metadados da página (título, links, scripts etc.).
+title - Define o título da página mostrado na aba do navegador.
+base - Define URL base para links relativos.
+link - Relaciona documento a recurso externo (CSS, favicon etc.).
+meta - Define metadados (charset, viewport, descrição etc.).
+style - Adiciona CSS embutido.
+script - Insere ou referencia código JavaScript.
+noscript - Conteúdo alternativo quando JavaScript está desabilitado.
 
 # Estrutura de Conteúdo Semântico
 
-<body> - Corpo da página, conteúdo visível.
-<header> - Cabeçalho de página ou seção.
+body - Corpo da página, conteúdo visível.
+header> - Cabeçalho de página ou seção.
 <footer> - Rodapé de página ou seção.
 <main> - Conteúdo principal único da página.
 <section> - Seção temática ou agrupamento de conteúdo.
