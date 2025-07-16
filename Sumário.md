@@ -1,23 +1,4 @@
-# Sobre
-
-Este repositório contém um resumo em constante atualização dos principais conceitos da linguagem de marcação HTML.
-
-O objetivo é organizar, de forma clara e prática, os tópicos essenciais do HTML, facilitando o aprendizado progressivo e específico como base para o desenvolvimento de páginas web estruturadas e semânticas.
-
-Este resumo está sendo construído à medida que os estudos avançam, incluindo:
-
-Estrutura básica de documentos HTML;
-Uso das principais tags e elementos;
-Formulários e controles interativos;
-Inserção e manipulação de mídia;
-Elementos semânticos e acessibilidade;
-Integração com CSS e JavaScript para criação web completa.
-
-# Aviso
-
-Este material está em construção e será expandido com o tempo.
-Contribuições, sugestões e correções são bem-vindas!
-# Introdução - em atualização
+1. Introdução - em atualização
 
 HTML (HyperText Markup Language) é a linguagem padrão usada para criar páginas e aplicações na web. Ela estrutura o conteúdo, definindo títulos, parágrafos, links, imagens e outros elementos que o navegador interpreta e exibe.
 
@@ -28,7 +9,7 @@ Base da web, suportada por todos os navegadores.
 Focada na estrutura e semântica do conteúdo.
 Evolui continuamente com novos padrões e recursos.
 
-# História
+2. História
 
 1991: Tim Berners-Lee cria a primeira versão do HTML no CERN, focada em documentos científicos.
 1995: Surgem HTML 2.0 e depois HTML 3.2, trazendo suporte a formulários e tabelas.
@@ -38,20 +19,18 @@ Evolui continuamente com novos padrões e recursos.
 
 Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebendo atualizações contínuas para novas funcionalidades.
 
-# Estrutura Básica e Metadados
+3. Estrutura Básica e Metadados
 
-'''
-<!DOCTYPE>-Declara o tipo do documento HTML (HTML5).
-<html> - Elemento raiz do documento HTML.
-<head> - Contém metadados da página (título, links, scripts etc.).
-<title> - Define o título da página mostrado na aba do navegador.
-<base> - Define URL base para links relativos.
-<link> - Relaciona documento a recurso externo (CSS, favicon etc.).
-<meta> - Define metadados (charset, viewport, descrição etc.).
-<style> - Adiciona CSS embutido.
-<script> - Insere ou referencia código JavaScript.
-<noscript> - Conteúdo alternativo quando JavaScript está desabilitado.
-'''
+    - !DOCTYPE - Declara o tipo do documento HTML (HTML5).
+    - html - Elemento raiz do documento HTML.
+    - head - Contém metadados da página (título, links, scripts etc.).
+    - title - Define o título da página mostrado na aba do navegador.
+    - base - Define URL base para links relativos.
+    - link - Relaciona documento a recurso externo (CSS, favicon etc.).
+    - meta - Define metadados (charset, viewport, descrição etc.).
+    - <style> - Adiciona CSS embutido.
+    - <script> - Insere ou referencia código JavaScript.
+    - <noscript> - Conteúdo alternativo quando JavaScript está desabilitado.
 
 # Estrutura de Conteúdo Semântico
 
