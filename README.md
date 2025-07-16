@@ -1,2 +1,19 @@
-# Sumario em HTML
-Este material apresenta os fundamentos da linguagem HTML, desde a estrutura básica de um documento, uso de tags e elementos essenciais, até tópicos mais avançados como formulários, mídias, tabelas e elementos semânticos, preparando o leitor para criar páginas web bem estruturadas e funcionais.
+# Sobre
+
+Este repositório contém um resumo em constante atualização dos principais conceitos da linguagem de marcação HTML.
+
+O objetivo é organizar, de forma clara e prática, os tópicos essenciais do HTML, facilitando o aprendizado progressivo e específico como base para o desenvolvimento de páginas web estruturadas e semânticas.
+
+Este resumo está sendo construído à medida que os estudos avançam, incluindo:
+
+Estrutura básica de documentos HTML;
+Uso das principais tags e elementos;
+Formulários e controles interativos;
+Inserção e manipulação de mídia;
+Elementos semânticos e acessibilidade;
+Integração com CSS e JavaScript para criação web completa.
+
+# Aviso
+
+Este material está em construção e será expandido com o tempo.
+Contribuições, sugestões e correções são bem-vindas!
