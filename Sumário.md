@@ -29,8 +29,8 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - <link> - Relaciona documento a recurso externo (CSS, favicon etc.).
     - <meta> - Define metadados (charset, viewport, descrição etc.).
     - <style> - Adiciona CSS embutido.
-    - "<script>" - Insere ou referencia código JavaScript.
-    - '<noscript>' - Conteúdo alternativo quando JavaScript está desabilitado.
+    - <script> - Insere ou referencia código JavaScript.
+    - &lt;noscript&lt; - Conteúdo alternativo quando JavaScript está desabilitado.
 
 4. Estrutura de Conteúdo Semântico
 
