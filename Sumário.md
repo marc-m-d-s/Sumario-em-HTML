@@ -21,18 +21,18 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 
 3. Estrutura Básica e Metadados
 
-    - !DOCTYPE - Declara o tipo do documento HTML (HTML5).
-    - html - Elemento raiz do documento HTML.
-    - head - Contém metadados da página (título, links, scripts etc.).
-    - title - Define o título da página mostrado na aba do navegador.
-    - base - Define URL base para links relativos.
-    - link - Relaciona documento a recurso externo (CSS, favicon etc.).
-    - meta - Define metadados (charset, viewport, descrição etc.).
+    - <!DOCTYPE> - Declara o tipo do documento HTML (HTML5).
+    - <html> - Elemento raiz do documento HTML.
+    - <head> - Contém metadados da página (título, links, scripts etc.).
+    - <title> - Define o título da página mostrado na aba do navegador.
+    - <base> - Define URL base para links relativos.
+    - <link> - Relaciona documento a recurso externo (CSS, favicon etc.).
+    - <meta> - Define metadados (charset, viewport, descrição etc.).
     - <style> - Adiciona CSS embutido.
-    - <script> - Insere ou referencia código JavaScript.
-    - <noscript> - Conteúdo alternativo quando JavaScript está desabilitado.
+    - "<script>" - Insere ou referencia código JavaScript.
+    - '<noscript>' - Conteúdo alternativo quando JavaScript está desabilitado.
 
-# Estrutura de Conteúdo Semântico
+4. Estrutura de Conteúdo Semântico
 
 <body> - Corpo da página, conteúdo visível.
 <header> - Cabeçalho de página ou seção.
@@ -49,7 +49,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 <p> - Parágrafo de texto.
 <pre> - Texto pré-formatado (mantém espaçamento e quebras).
 
-# Formatação e Texto
+5. Formatação e Texto
 
 <abbr> - Abreviação com explicação (via atributo title).
 <b> - Negrito (sem ênfase semântica).
@@ -79,7 +79,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 <var> - Representa variável.
 <wbr> - Ponto opcional de quebra de linha.
 
-# Listas
+6. Listas
 
 <ul> - Lista não ordenada.
 <ol> - Lista ordenada.
@@ -88,7 +88,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 <dt> - Termo da definição.
 <dd> - Descrição do termo.
 
-# Tabelas
+7. Tabelas
 
 <table> - Define tabela.
 <caption> - Legenda da tabela.
@@ -101,7 +101,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 <td> - Célula de dados.
 <th> - Célula de cabeçalho.
 
-# Mídia e Multimídia
+8. Mídia e Multimídia
 
 <img> - Imagem.
 <map> - Mapa de imagem com áreas clicáveis.
@@ -118,7 +118,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 <param> - Parâmetro para <object>.
 <iframe> - Janela embutida que exibe outro conteúdo HTML.
 
-# Formulários e Interação com Usuário
+9. Formulários e Interação com Usuário
 
 <form> - Formulário para envio de dados.
 <input> - Campo de entrada (texto, checkbox, rádio etc.).
@@ -135,7 +135,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 <meter> - Medidor de valor dentro de faixa.
 <progress> - Barra de progresso.
 
-# Tag / Motivo da Obsolescência / Substituição Recomendada - Observação
+10. Tag / Motivo da Obsolescência / Substituição Recomendada - Observação
 
 <acronym> - Foi substituída por <abbr>. - Use <abbr> para abreviações.
 <applet> - Plugins Java obsoletos, inseguro e descontinuado. - Use <object> ou tecnologias modernas (JS, HTML5).
