@@ -21,133 +21,133 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
 
 3. Estrutura Básica e Metadados
 
-    - <!DOCTYPE> - Declara o tipo do documento HTML (HTML5).
-    - <html> - Elemento raiz do documento HTML.
-    - <head> - Contém metadados da página (título, links, scripts etc.).
-    - <title> - Define o título da página mostrado na aba do navegador.
-    - <base> - Define URL base para links relativos.
-    - <link> - Relaciona documento a recurso externo (CSS, favicon etc.).
-    - <meta> - Define metadados (charset, viewport, descrição etc.).
-    - <style> - Adiciona CSS embutido.
-    - <script> - Insere ou referencia código JavaScript.
-    - &lt;noscript&lt; - Conteúdo alternativo quando JavaScript está desabilitado.
+    - &lt;!DOCTYPE&gt;  - Declara o tipo do documento HTML (HTML5).
+    - &lt;html&gt;  - Elemento raiz do documento HTML.
+    - &lt;head&gt;  - Contém metadados da página (título, links, scripts etc.).
+    - &lt;title&gt;  - Define o título da página mostrado na aba do navegador.
+    - &lt;base&gt;  - Define URL base para links relativos.
+    - &lt;link&gt;  - Relaciona documento a recurso externo (CSS, favicon etc.).
+    - &lt;meta&gt;  - Define metadados (charset, viewport, descrição etc.).
+    - &lt;style&gt;  - Adiciona CSS embutido.
+    - &lt;script - Insere ou referencia código JavaScript.
+    - &lt;noscript&gt; - Conteúdo alternativo quando JavaScript está desabilitado.
 
 4. Estrutura de Conteúdo Semântico
 
-<body> - Corpo da página, conteúdo visível.
-<header> - Cabeçalho de página ou seção.
-<footer> - Rodapé de página ou seção.
-<main> - Conteúdo principal único da página.
-<section> - Seção temática ou agrupamento de conteúdo.
-<article> - Conteúdo independente e reutilizável (ex: post, notícia).
-<aside> - Conteúdo complementar ou lateral (barra lateral, widgets).
-<nav> - Área de links de navegação.
-<h1> a <h6> - Títulos de seção, do mais importante (<h1>) ao menos (<h6>).
-<address> - Informações de contato.
-<hr> - Linha horizontal separadora temática.
-<br> - Quebra de linha.
-<p> - Parágrafo de texto.
-<pre> - Texto pré-formatado (mantém espaçamento e quebras).
+&lt;body&gt;  - Corpo da página, conteúdo visível.
+&lt;header&gt;  - Cabeçalho de página ou seção.
+&lt;footer&gt;  - Rodapé de página ou seção.
+&lt;main&gt;  - Conteúdo principal único da página.
+&lt;section&gt;  - Seção temática ou agrupamento de conteúdo.
+&lt;article&gt;  - Conteúdo independente e reutilizável (ex: post, notícia).
+&lt;aside&gt;  - Conteúdo complementar ou lateral (barra lateral, widgets).
+&lt;nav&gt;  - Área de links de navegação.
+&lt;h1&gt;  a &lt;h6&gt;  - Títulos de seção, do mais importante (&lt;h1&gt; ) ao menos (&lt;h6&gt; ).
+&lt;address&gt;  - Informações de contato.
+&lt;hr&gt;  - Linha horizontal separadora temática.
+&lt;br&gt;  - Quebra de linha.
+&lt;p&gt;  - Parágrafo de texto.
+&lt;pre&gt;  - Texto pré-formatado (mantém espaçamento e quebras).
 
 5. Formatação e Texto
 
-<abbr> - Abreviação com explicação (via atributo title).
-<b> - Negrito (sem ênfase semântica).
-<bdi> - Isola texto com direção bidirecional independente.
-<bdo> - Altera a direção do texto (ex: LTR, RTL).
-<cite> - Citação de fonte ou obra.
-<code> - Trecho de código.
-<data> - Dado legível e acessível para máquina (atributo value).
-<dfn> - Definição de termo.
-<em> - Ênfase textual (geralmente itálico).
-<i> - Itálico sem ênfase semântica.
-<kbd> - Entrada do teclado.
-<mark> - Destaque (marca-texto).
-<q> - Citação curta (aspas automáticas).
-<rp> - Texto alternativo para navegadores sem suporte a <ruby>.
-<rt> - Anotação ruby (pronúncia, transliteração).
-<ruby> - Texto com anotação ruby (ex: japonês).
-<s> - Texto riscado (obsoleto, incorreto).
-<samp> - Saída de programa ou sistema.
-<small> - Texto de menor importância.
-<span> - Container genérico inline.
-<strong> - Ênfase forte (geralmente negrito).
-<sub> - Texto subscrito (abaixo da linha).
-<sup> - Texto sobrescrito (acima da linha).
-<time> - Data ou hora com valor legível por máquina.
-<u> - Texto sublinhado (semântico, ex: erro ortográfico).
-<var> - Representa variável.
-<wbr> - Ponto opcional de quebra de linha.
+&lt;abbr&gt;  - Abreviação com explicação (via atributo title).
+&lt;b&gt;  - Negrito (sem ênfase semântica).
+&lt;bdi&gt;  - Isola texto com direção bidirecional independente.
+&lt;bdo&gt;  - Altera a direção do texto (ex: LTR, RTL).
+&lt;cite&gt;  - Citação de fonte ou obra.
+&lt;code&gt;  - Trecho de código.
+&lt;data&gt;  - Dado legível e acessível para máquina (atributo value).
+&lt;dfn&gt;  - Definição de termo.
+&lt;em&gt;  - Ênfase textual (geralmente itálico).
+&lt;i&gt;  - Itálico sem ênfase semântica.
+&lt;kbd&gt;  - Entrada do teclado.
+&lt;mark&gt;  - Destaque (marca-texto).
+&lt;q&gt;  - Citação curta (aspas automáticas).
+&lt;rp&gt;  - Texto alternativo para navegadores sem suporte a &lt;ruby&gt; .
+&lt;rt&gt;  - Anotação ruby (pronúncia, transliteração).
+&lt;ruby&gt;  - Texto com anotação ruby (ex: japonês).
+&lt;s&gt;  - Texto riscado (obsoleto, incorreto).
+&lt;samp&gt;  - Saída de programa ou sistema.
+&lt;small&gt;  - Texto de menor importância.
+&lt;span&gt;  - Container genérico inline.
+&lt;strong&gt;  - Ênfase forte (geralmente negrito).
+&lt;sub&gt;  - Texto subscrito (abaixo da linha).
+&lt;sup&gt;  - Texto sobrescrito (acima da linha).
+&lt;time&gt;  - Data ou hora com valor legível por máquina.
+&lt;u&gt;  - Texto sublinhado (semântico, ex: erro ortográfico).
+&lt;var&gt;  - Representa variável.
+&lt;wbr&gt;  - Ponto opcional de quebra de linha.
 
 6. Listas
 
-<ul> - Lista não ordenada.
-<ol> - Lista ordenada.
-<li> - Item de lista.
-<dl> - Lista de definições.
-<dt> - Termo da definição.
-<dd> - Descrição do termo.
+&lt;ul&gt;  - Lista não ordenada.
+&lt;ol&gt;  - Lista ordenada.
+&lt;li&gt;  - Item de lista.
+&lt;dl&gt;  - Lista de definições.
+&lt;dt&gt;  - Termo da definição.
+&lt;dd&gt;  - Descrição do termo.
 
 7. Tabelas
 
-<table> - Define tabela.
-<caption> - Legenda da tabela.
-<colgroup> - Agrupamento de colunas.
-<col> - Define estilo/estrutura de coluna..
-<thead> - Cabeçalho da tabela.
-<tbody> - Corpo da tabela.
-<tfoot> - Rodapé da tabela.
-<tr> - Linha da tabela.
-<td> - Célula de dados.
-<th> - Célula de cabeçalho.
+&lt;table&gt;  - Define tabela.
+&lt;caption&gt;  - Legenda da tabela.
+&lt;colgroup&gt;  - Agrupamento de colunas.
+&lt;col&gt;  - Define estilo/estrutura de coluna..
+&lt;thead&gt;  - Cabeçalho da tabela.
+&lt;tbody&gt;  - Corpo da tabela.
+&lt;tfoot&gt;  - Rodapé da tabela.
+&lt;tr&gt;  - Linha da tabela.
+&lt;td&gt;  - Célula de dados.
+&lt;th&gt;  - Célula de cabeçalho.
 
 8. Mídia e Multimídia
 
-<img> - Imagem.
-<map> - Mapa de imagem com áreas clicáveis.
-<area> - Área clicável dentro de um mapa de imagem.
-<picture> - Agrupamento de múltiplas fontes de imagem (responsivo).
-<source> - Fonte alternativa para <picture>, <audio> ou <video>.
-<figcaption> - Legenda para mídia ou figura.
-<figure> - Container para mídia com legenda.
-<audio> - Áudio embutido.
-<video> - Vídeo embutido.
-<track> - Faixa de texto para legendas/captions em <video> ou <audio>.
-<embed> - Incorporação genérica de conteúdo externo.
-<object> - Objeto externo (plugin, app etc.).
-<param> - Parâmetro para <object>.
-<iframe> - Janela embutida que exibe outro conteúdo HTML.
+&lt;img&gt;  - Imagem.
+&lt;map&gt;  - Mapa de imagem com áreas clicáveis.
+&lt;area&gt;  - Área clicável dentro de um mapa de imagem.
+&lt;picture&gt;  - Agrupamento de múltiplas fontes de imagem (responsivo).
+&lt;source&gt;  - Fonte alternativa para &lt;picture&gt; , &lt;audio&gt;  ou &lt;video&gt; .
+&lt;figcaption&gt;  - Legenda para mídia ou figura.
+&lt;figure&gt;  - Container para mídia com legenda.
+&lt;audio&gt;  - Áudio embutido.
+&lt;video&gt;  - Vídeo embutido.
+&lt;track&gt;  - Faixa de texto para legendas/captions em &lt;video&gt;  ou &lt;audio&gt; .
+&lt;embed&gt;  - Incorporação genérica de conteúdo externo.
+&lt;object&gt;  - Objeto externo (plugin, app etc.).
+&lt;param&gt;  - Parâmetro para &lt;object&gt; .
+&lt;iframe&gt;  - Janela embutida que exibe outro conteúdo HTML.
 
 9. Formulários e Interação com Usuário
 
-<form> - Formulário para envio de dados.
-<input> - Campo de entrada (texto, checkbox, rádio etc.).
-<textarea> - Área de texto multilinha.
-<button> - Botão clicável.
-<select> - Lista suspensa.
-<option> - Opção dentro de <select>.
-<optgroup> - Agrupamento de opções.
-<label> - Rótulo associado a campo de formulário.
-<fieldset> - Agrupamento visual e semântico de campos.
-<legend> - Legenda para <fieldset>.
-<datalist> - Lista de sugestões para <input>.
-<output> - Exibe resultado de cálculo.
-<meter> - Medidor de valor dentro de faixa.
-<progress> - Barra de progresso.
+&lt;form&gt;  - Formulário para envio de dados.
+&lt;input&gt;  - Campo de entrada (texto, checkbox, rádio etc.).
+&lt;textarea&gt;  - Área de texto multilinha.
+&lt;button&gt;  - Botão clicável.
+&lt;select&gt;  - Lista suspensa.
+&lt;option&gt;  - Opção dentro de &lt;select&gt; .
+&lt;optgroup&gt;  - Agrupamento de opções.
+&lt;label&gt;  - Rótulo associado a campo de formulário.
+&lt;fieldset&gt;  - Agrupamento visual e semântico de campos.
+&lt;legend&gt;  - Legenda para &lt;fieldset&gt; .
+&lt;datalist&gt;  - Lista de sugestões para &lt;input&gt; .
+&lt;output&gt;  - Exibe resultado de cálculo.
+&lt;meter&gt;  - Medidor de valor dentro de faixa.
+&lt;progress&gt;  - Barra de progresso.
 
 10. Tag / Motivo da Obsolescência / Substituição Recomendada - Observação
 
-<acronym> - Foi substituída por <abbr>. - Use <abbr> para abreviações.
-<applet> - Plugins Java obsoletos, inseguro e descontinuado. - Use <object> ou tecnologias modernas (JS, HTML5).
-<basefont> - Controle de fonte via CSS. - Use CSS para definir fontes.
-<big> - Controle de tamanho via CSS. - Use CSS (font-size).
-<center> - Alinhamento via CSS. - Use CSS (text-align: center).
-<dir> - Listas de diretórios, substituída por <ul>. - Use <ul>.
-<font> - Controle de estilo via CSS. - Use CSS para definir cor, fonte, tamanho.
-<frame>, <frameset>, <noframes> - Estrutura com frames foi descontinuada. - Use <iframe> ou layouts modernos CSS/JS.
-<isindex> - Elemento de busca simples obsoleto. - Use <input> dentro de <form>.
-<strike> - Texto riscado, substituído por <s>. - Use <s> para texto riscado.
-<tt> - Fonte monoespaçada via tag, não mais usada. - Use CSS (font-family: monospace).
-<u> - Uso antigo para sublinhado, redefinida semântica. - Pode ser usado para indicar texto sublinhado ou erro ortográfico.
-<xmp> - Exibição de código pré-formatado, perigoso. - Use <pre><code> para código pré-formatado.
-<keygen> - Elemento para geração de chaves criptográficas. - Substituído por Web Crypto API.
+&lt;acronym&gt;  - Foi substituída por &lt;abbr&gt; . - Use &lt;abbr&gt;  para abreviações.
+&lt;applet&gt;  - Plugins Java obsoletos, inseguro e descontinuado. - Use &lt;object&gt;  ou tecnologias modernas (JS, HTML5).
+&lt;basefont&gt;  - Controle de fonte via CSS. - Use CSS para definir fontes.
+&lt;big&gt;  - Controle de tamanho via CSS. - Use CSS (font-size).
+&lt;center&gt;  - Alinhamento via CSS. - Use CSS (text-align: center).
+&lt;dir&gt;  - Listas de diretórios, substituída por &lt;ul&gt; . - Use &lt;ul&gt; .
+&lt;font&gt;  - Controle de estilo via CSS. - Use CSS para definir cor, fonte, tamanho.
+&lt;frame&gt; , &lt;frameset&gt; , &lt;noframes&gt;  - Estrutura com frames foi descontinuada. - Use &lt;iframe&gt;  ou layouts modernos CSS/JS.
+&lt;isindex&gt;  - Elemento de busca simples obsoleto. - Use &lt;input&gt;  dentro de &lt;form&gt; .
+&lt;strike&gt;  - Texto riscado, substituído por &lt;s&gt; . - Use &lt;s&gt;  para texto riscado.
+&lt;tt&gt;  - Fonte monoespaçada via tag, não mais usada. - Use CSS (font-family: monospace).
+&lt;u&gt;  - Uso antigo para sublinhado, redefinida semântica. - Pode ser usado para indicar texto sublinhado ou erro ortográfico.
+&lt;xmp&gt;  - Exibição de código pré-formatado, perigoso. - Use &lt;pre&gt; &lt;code&gt;  para código pré-formatado.
+&lt;keygen&gt;  - Elemento para geração de chaves criptográficas. - Substituído por Web Crypto API.
