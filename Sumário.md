@@ -42,7 +42,7 @@ Atualidade: HTML é mantido em formato “living standard” pelo WHATWG, recebe
     - <article> - Conteúdo independente e reutilizável (ex: post, notícia).
     - <aside> - Conteúdo complementar ou lateral (barra lateral, widgets).
     - <nav> - Área de links de navegação.
-    - <h1>  a <h6> - Títulos de seção, do mais importante (<h1> ) ao menos (<h6> ).
+    - <h1>  a <h6> - Títulos de seção, do mais importante (<h1>) ao menos (<h6>).
     - <address> - Informações de contato.
     - <hr> - Linha horizontal separadora temática.
     - <br> - Quebra de linha.
